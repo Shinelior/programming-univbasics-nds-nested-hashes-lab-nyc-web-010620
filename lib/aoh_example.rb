@@ -17,7 +17,7 @@ def literal_aoh
   # held in the constants
 new_has={}
   assembled_aoh.sort
-  return new_has
+  
 end
 
 def aoh_lookup(aoh, row, key)
