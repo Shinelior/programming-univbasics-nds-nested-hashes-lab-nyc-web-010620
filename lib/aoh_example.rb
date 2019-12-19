@@ -17,7 +17,7 @@ def literal_aoh
   # held in the constants
 
   
-  return =assembled_aoh.map(&:sort).map(&:to_h)
+  return =assembled_aoh
 end
 
 def aoh_lookup(aoh, row, key)
